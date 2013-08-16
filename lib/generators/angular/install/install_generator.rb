@@ -25,15 +25,15 @@ module Angular
         end
       end
 
-			def create_templates_dir_layout
-				empty_directory angular_templates_path
-				create_file "#{angular_templates_path}/.gitkeep" unless options[:skip_git]
-			end
+      def create_templates_dir_layout
+        empty_directory angular_templates_path
+        create_file "#{angular_templates_path}/.gitkeep" unless options[:skip_git]
+      end
 
-			def create_spec_dir_layout
-				 empty_directory angular_spec_path
-				 create_file "#{angular_spec_path}/.gitkeep" unless options[:skip_git]
-			end
+      def create_spec_dir_layout
+        empty_directory angular_spec_path
+        create_file "#{angular_spec_path}/.gitkeep" unless options[:skip_git]
+      end
     end
   end
 end
