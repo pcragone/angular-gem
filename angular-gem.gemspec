@@ -7,9 +7,9 @@ require "angular-gem/version"
 Gem::Specification.new do |s|
   s.name        = "angular-gem"
   s.version     = AngularGem::VERSION
-  s.authors     = ["Christian Vuerings", "Scot Hacker", "Yu-Hung Lin"]
-  s.email       = ["vueringschristian@gmail.com", "yuhung@yuhunglin.com"]
-  s.homepage    = "http://github.com/ets-berkeley-edu/angular-gem"
+  s.authors     = ["Christian Vuerings", "Scot Hacker", "Yu-Hung Lin", "Peter Ragone"]
+  s.email       = ["vueringschristian@gmail.com", "yuhung@yuhunglin.com", "pcragone@gmail.com"]
+  s.homepage    = "http://github.com/pcragone/angular-gem"
   s.summary     = "Bootstrap angularjs in a rails project"
   s.description = "Include Angularjs in rails and nothing more (ripped from angular-rails)"
 
