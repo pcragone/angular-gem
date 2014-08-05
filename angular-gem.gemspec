@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md", "CHANGELOG.md"]
   s.test_files = Dir["test/**/*"]
-  s.add_dependency "railties", [">= 3.1"]
-  s.add_dependency "coffee-script", '~> 2.2.0'
+  s.add_dependency "railties", [">= 4.1"]
+  s.add_dependency "coffee-script", '~> 2.3.0'
 
   s.add_development_dependency "bundler", [">= 1.2.2"]
   s.add_development_dependency "tzinfo"
